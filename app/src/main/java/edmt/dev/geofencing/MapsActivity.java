@@ -189,19 +189,19 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
 
     @Override
     public void onKeyEntered(String key, GeoLocation location) {
-        sendNotification("EMDTDev",String.format("is entered the dangerous area",key));
+        sendNotification("You",String.format("is entered the dangerous area",key));
     }
 
 
 
     @Override
     public void onKeyExited(String key) {
-        sendNotification("EMDTDev",String.format("is leave the dangerous area",key));
+        sendNotification("You",String.format("is leave the dangerous area",key));
     }
 
     @Override
     public void onKeyMoved(String key, GeoLocation location) {
-        sendNotification("EMDTDev",String.format("is move within the dangerous area",key));
+        sendNotification("You",String.format("is move within the dangerous area",key));
     }
 
     @Override
