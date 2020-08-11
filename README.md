@@ -2,6 +2,8 @@
  
 Geofencing can be used to develop an applications which provides new doors of opportunity for many businesses. It gives us a competitive edge that can help us to work more
 effectively. The implementation of the project is done such a way that user’s device  gets notified along with vibration of device when enters a geofence area.
+
+
 Step 1: Start
 Step 2: Create a new project.
 Step 3: Add libraries such as Dexter for request runtime permission, Location services for get current location device, Geo-Fire, Google map.  
